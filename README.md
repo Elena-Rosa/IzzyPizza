@@ -26,11 +26,11 @@ This is a build your pizza order page. Guests can choose their toppings from a d
 
 ## Tests
 
-Describe: 
+Describe: class Pizza
 
-Test: ""
-Code:
-Expected output:
+Test: "It should return getCost method"
+Code:Pizza
+Expected output:getCost method with three size choices
 
 Test: ""
 Code:
