@@ -30,7 +30,7 @@ Describe: class Pizza
 
 Test: "It should return getCost method"
 Code:Pizza
-Expected output:getCost method with three size choices
+Expected output:Define the class for pizza. Toppings and the getCost method with "small", "medium", or "large" offered.
 
 Test: ""
 Code:
