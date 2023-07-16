@@ -42,6 +42,8 @@ Test: "It should return a Pizza object with four properties/ toppings and size. 
 Code: new Pizza(["cheese", "onions", "peppers"], "small");
 Expected output: Pizza {toppings: (3)["cheese", "onions", "peppers"], size: "small" 
 
+Describe getCost
+
 
 Test: ""
 Code: 

@@ -44,19 +44,21 @@ function placeOrder() {
     if (decument.getElementById("sausage").checked) {
         toppings.push("sausage");
     }
-    if (decument.getElementById("olives").checked) {
+    if (document.getElementById("olives").checked) {
         toppings.push("olives");
     }
-    if (decument.getElementById("onions").checked) {
+    if (document.getElementById("onions").checked) {
         toppings.push("onions");
     }
-    if (decument.getElementById("peppers").checked) {
+    if (document.getElementById("peppers").checked) {
         toppings.push("peppers");
     }
 
-
+    let size = docoment.getElementById("size").value
 
 
     let pizza = new Pizza(toppings, size);
     let cost = pizza.getCost();
-    document.getElementById("results").innerHTML = "Your total is: $' + cost.toFixed(2);
+    document.getElementById("results").innerHTML = "Your total is: $" + cost.toFixed(2);
+
+}
