@@ -38,10 +38,10 @@ function placeOrder() {
     if (document.getElementById("cheese").checked) {
         toppings.push("cheese");
     }
-    if (decument.getElementById("pepperoni").checked) {
+    if (document.getElementById("pepperoni").checked) {
         toppings.push("pepperoni");
     }
-    if (decument.getElementById("sausage").checked) {
+    if (document.getElementById("sausage").checked) {
         toppings.push("sausage");
     }
     if (document.getElementById("olives").checked) {

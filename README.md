@@ -45,16 +45,6 @@ Expected output: Pizza {toppings: (3)["cheese", "onions", "peppers"], size: "sma
 Describe getCost
 
 
-Test: ""
-Code: 
-Expected Output: 
-
-Test: ""
-Code: 
-Expected Output: 
-
-
-
 ## License
 
 
