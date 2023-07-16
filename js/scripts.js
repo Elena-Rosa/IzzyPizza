@@ -1,3 +1,4 @@
+//Business Logic
 class Pizza {
     constructor(toppings, size) {
         this.toppings = toppings;
@@ -19,3 +20,43 @@ class Pizza {
     }
 
 }
+
+window.addEventListener("load", function () {
+    const order = document.getElementById("order")
+    order.addEventListener("click", function () {
+        placeOrder()
+    })
+
+    //user interface logic
+
+})
+function placeOrder() {
+    event.preventDefault();
+
+    let toppings = [];
+
+    if (document.getElementById("cheese").checked) {
+        toppings.push("cheese");
+    }
+    if (decument.getElementById("pepperoni").checked) {
+        toppings.push("pepperoni");
+    }
+    if (decument.getElementById("sausage").checked) {
+        toppings.push("sausage");
+    }
+    if (decument.getElementById("olives").checked) {
+        toppings.push("olives");
+    }
+    if (decument.getElementById("onions").checked) {
+        toppings.push("onions");
+    }
+    if (decument.getElementById("peppers").checked) {
+        toppings.push("peppers");
+    }
+
+
+
+
+    let pizza = new Pizza(toppings, size);
+    let cost = pizza.getCost();
+    document.getElementById("results").innerHTML = "Your total is: $' + cost.toFixed(2);
