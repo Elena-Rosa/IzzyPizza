@@ -26,24 +26,22 @@ This is a build your pizza order page. Guests can choose their toppings from a d
 
 ## Tests
 
-Describe: class Pizza
+Describe: Pizza 
 
 Test: "It should return getCost method"
 Code:Pizza
 Expected output:Define the class for pizza. Toppings and the getCost method with "small", "medium", or "large" offered.
 
 
-Test: "It should return a Pizza object with two properties for toppings and size"
-Code: const myPizza = new Pizza(["onions", "sausage"], "medium");
-Expected Output: Pizza toppings: ["onions", "sausagee"], size: "medium" 
+Test: "It should return a Pizza object with three properties/ toppings and size"
+Code: new Pizza(["cheese", "onions"], "medium");
+Expected Output: Pizza {toppings: (2)["cheese", "onions"], size: "medium" 
 
 
-Test: ""
-Code:
-Expected output:
+Test: "It should return a Pizza object with four properties/ toppings and size. "
+Code: new Pizza(["cheese", "onions", "peppers"], "small");
+Expected output: Pizza {toppings: (3)["cheese", "onions", "peppers"], size: "small" 
 
-
-Describe: 
 
 Test: ""
 Code: 
