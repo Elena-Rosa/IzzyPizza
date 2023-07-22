@@ -54,7 +54,7 @@ function placeOrder() {
         toppings.push("peppers");
     }
 
-    let size = docoment.getElementById("size").value
+    let size = document.getElementById("size").value
 
 
     let pizza = new Pizza(toppings, size);
