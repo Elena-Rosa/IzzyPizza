@@ -44,6 +44,11 @@ Expected output: Pizza {toppings: (3)["cheese", "onions", "peppers"], size: "sma
 
 Describe getCost
 
+Test: It should return the cost of the Pizza
+Code: let pizza = new Pizza(["cheese", "onions", "peppers"], "small");
+pizza.getCost();
+Expected output: 5.75
+
 
 ## License
 
