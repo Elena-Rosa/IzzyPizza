@@ -54,7 +54,10 @@ Code: let pizza = new Pizza(["pepperoni", "sausage", "olives"], "medium");
 pizza.getCost();
 Expected output: 8.75
 
-
+Test: It should return the cost of the Pizza
+Code: let pizza = new Pizza(["peppers", "onions"], "large");
+pizza.getCost();
+Expected output: 10.50
 
 ## License
 
